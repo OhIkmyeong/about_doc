@@ -1,0 +1,16 @@
+@charset "utf-8";
+:root{
+    --bg : rgb(183, 184, 192);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{background:var(--bg);}
+table{
+    position:relative;
+    width:100%; max-width:1000px;
+    margin:3rem auto; 
+    border-collapse:separate;border-spacing:0;
+    border-top:3px solid black;
+}
+caption{padding-top:1em;margin-bottom:1rem;font-size:2rem; font-weight:bold;}
+th,td{position:relative;padding:1.5rem 1rem; border-bottom:1rem solid var(--bg);background:#fff;font-size:1.2rem;}
+th{background:#f1f1f3;font-size:.875em;}
